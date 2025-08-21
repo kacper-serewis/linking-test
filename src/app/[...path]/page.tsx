@@ -19,7 +19,11 @@ export default async function Page() {
       <h1>In-app link</h1>
       <code>{pathname}</code>
       <p>Ben je niet doorgestuurd naar de app?</p>
-      {pathname && <Link href={pathname}>Nog een keer.</Link>}
+      {pathname && (
+        <Link href={"nl.stofloos.linkingtestapp:/" + pathname}>
+          Nog een keer.
+        </Link>
+      )}
     </section>
   );
 }
