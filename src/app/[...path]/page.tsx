@@ -3,7 +3,7 @@ import { headers } from "next/headers";
 export default async function Page() {
   const headerList = await headers();
   const pathname = headerList.get("x-current-path");
-  console.log(headerList);
+
   return (
     <section
       style={{
