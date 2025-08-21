@@ -5,8 +5,8 @@
             {
                 "appID": "Q86D2UFYYF.nl.stofloos.linkingtestapp",
                 "paths": [
-                    "*",
-                    "*/*"
+                    "/explore",
+                    "/*",
                 ]
             }
         ]
