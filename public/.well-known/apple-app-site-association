@@ -1,0 +1,14 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "Q86D2UFYYF.nl.stofloos.linkingtestapp",
+                "paths": [
+                    "*",
+                    "*/*"
+                ]
+            }
+        ]
+    }
+}
